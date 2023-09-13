@@ -1,0 +1,3 @@
+#ignore large data file
+
+data/features_with_aromaticity_simplified.pkl
