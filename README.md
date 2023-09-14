@@ -15,7 +15,17 @@ To deploy this project run
 ```bash
   cd data
   unzip pickled_data.zip
+```
+To train the model use
+```bash
   cd ../training
   python spektral-model.py > spektral-model.log
 ```
-This will generate the output file "spektral-model.log" along with the 
+This will generate the output file "spektral-model.log" along with the png files in the training directory.
+
+To use the pretrained model on external dataset use the following:
+```bash
+  cd ../load_model
+  python load_saved_model.py > load_saved_model.log
+```
+This will generate the output file "load_saved_model.log" along with the png files in the load_model directory.
