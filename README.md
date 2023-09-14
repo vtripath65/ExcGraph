@@ -28,4 +28,6 @@ To use the pretrained model on external dataset use the following:
   cd ../load_model
   python load_saved_model.py > load_saved_model.log
 ```
-This will generate the output file "load_saved_model.log" along with the png files in the load_model directory.
+This will generate the output file "load_saved_model.log" along with the png files in the load_model directory. The purpose of this directory is to test the model on new external test sets.
+## Architeture
+![git_architecture](https://media.github.iu.edu/user/24867/files/5acdadcc-45a0-4b6c-9aa4-53fb47289279)
