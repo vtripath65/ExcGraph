@@ -31,3 +31,4 @@ To use the pretrained model on external dataset use the following:
 This will generate the output file "load_saved_model.log" along with the png files in the load_model directory. The purpose of this directory is to test the model on new external test sets.
 ## Architeture
 ![git_architecture](https://media.github.iu.edu/user/24867/files/5acdadcc-45a0-4b6c-9aa4-53fb47289279)
+Two convolution layers followed by a pooling layers to obtain molecular fingerprint. This fingerprint is passed through a feedforward neural network to obtain the predicted emission maxima. The node features contain atomic properties and bonding environment along with the eps value (dielectric) of the solvent. The solvent index will be the same for all the nodes for a chromophore in a particular solvent. Using this as a global property has been tested with no improvement.
