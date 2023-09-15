@@ -2,6 +2,10 @@ name: ExcGraph
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
+  - python=3.10.10
   - numpy=1.24.3
   - tensorflow=2.11.1
+  - pip=23.1.2
+  - pip:
+    - spektral==1.2.0
+    - matplotlib==3.7.1
