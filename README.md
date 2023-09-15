@@ -13,6 +13,10 @@ The architecture is written in "Spektral", a
 To deploy this project run
 
 ```bash
+  git clone https://github.iu.edu/vtripath/ExcGraph.git
+  make conda_env
+  conda activate ExcGraph
+  pip install spektral
   cd data
   unzip pickled_data.zip
 ```
