@@ -59,3 +59,4 @@ The predictions are colored using different dyes classes. The chromophores are p
 - Test on external dataset
 - Shows good extrapolation performance
 - Unlike previous work, no constraint on the size of the chromophores
+- State of the art performance with test error being ~0.1 eV
