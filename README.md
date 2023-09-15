@@ -10,6 +10,9 @@ The architecture is written in "Spektral", a
 - numpy 1.24.3
 - tensorflow 2.11.1
 - pip 23.1.2
+
+Note: You do not have to install them yourselves. Following the proceedure in the deployment section will get your environment set up for you.
+
 ## Deployment
 
 To deploy this project run
