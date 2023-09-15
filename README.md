@@ -18,7 +18,7 @@ Note: You do not have to install them yourselves. Following the proceedure in th
 To deploy this project run
 
 ```bash
-  git clone https://github.iu.edu/vtripath/ExcGraph.git
+  git clone https://github.com/vtripath65/ExcGraph.git
   cd ExcGraph
   make conda_env
   conda activate ExcGraph
