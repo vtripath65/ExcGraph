@@ -4,10 +4,12 @@ ExcGraph is a graph neural network to predict emission properties of dye like ch
 The architecture is written in "Spektral", a 
 ## Requirements
 
-- Python 3.8
+- Python 3.10.10
 - spektral 1.2.0
+- matplotlib 3.7.1
 - numpy 1.24.3
 - tensorflow 2.11.1
+- pip 23.1.2
 ## Deployment
 
 To deploy this project run
@@ -17,7 +19,6 @@ To deploy this project run
   cd ExcGraph
   make conda_env
   conda activate ExcGraph
-  pip install spektral
   cd data
   unzip pickled_data.zip
 ```
