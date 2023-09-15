@@ -22,6 +22,8 @@ To deploy this project run
   cd data
   unzip pickled_data.zip
 ```
+Note: This is an unpublished work. Thus, I have not provided the data here.
+
 To train the model use
 ```bash
   cd ../training
