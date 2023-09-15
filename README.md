@@ -23,7 +23,7 @@ To deploy this project run
   make conda_env
   conda activate ExcGraph
 ```
-Note: This is an unpublished work. Thus, I have not provided the data here. If you really want to run this code please ask me for the data.
+Note: I have not provided the data here. If you really want to run this code please contact me for the data.
 
 If you have the data you will have to run the following code:
 
