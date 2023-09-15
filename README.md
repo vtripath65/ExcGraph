@@ -50,7 +50,12 @@ This will generate the output file "load_saved_model.log" along with the png fil
 
 Two convolution layers followed by a pooling layers to obtain molecular fingerprint. This fingerprint is passed through a feedforward neural network to obtain the predicted emission maxima. The node features contain atomic properties and bonding environment along with the eps value (dielectric) of the solvent. The solvent index will be the same for all the nodes for a chromophore in a particular solvent. Using this as a global property has been tested with no impro
 vement.
-## Results
+## Example Result
 ![Predicted-vs-Experiment](https://media.github.iu.edu/user/24867/files/d49b4130-a5a7-44b6-a6ef-99aa26ca131a)
 
 The predictions are colored using different dyes classes. The chromophores are preprocessed to assign each chromophore to its own corresponding dye class.
+## Differntiating features
+
+- Test on external dataset
+- Shows good extrapolation performance
+- Unlike previous work, no constraint on the size of the chromophores
