@@ -19,8 +19,6 @@ To deploy this project run
   cd ExcGraph
   make conda_env
   conda activate ExcGraph
-  cd data
-  unzip pickled_data.zip
 ```
 Note: This is an unpublished work. Thus, I have not provided the data here. If you really want to run this code please ask me for the data.
 
