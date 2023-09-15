@@ -14,6 +14,7 @@ To deploy this project run
 
 ```bash
   git clone https://github.iu.edu/vtripath/ExcGraph.git
+  cd ExcGraph
   make conda_env
   conda activate ExcGraph
   pip install spektral
