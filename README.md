@@ -52,3 +52,5 @@ Two convolution layers followed by a pooling layers to obtain molecular fingerpr
 vement.
 ## Results
 ![Predicted-vs-Experiment](https://media.github.iu.edu/user/24867/files/d49b4130-a5a7-44b6-a6ef-99aa26ca131a)
+
+The predictions are colored using different dyes classes. The chromophores are preprocessed to assign each chromophore to its own corresponding dye class.
