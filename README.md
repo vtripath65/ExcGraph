@@ -1,4 +1,5 @@
-![Git_logo_1](https://media.github.iu.edu/user/24867/files/e9401be6-c886-4d7d-b864-f126c168f9f8)
+![Git_logo_1]![image](https://github.com/user-attachments/assets/b3301c0f-e3ac-4802-9338-7d9a476829ae)
+
 
 ExcGraph is a graph neural network to predict emission properties of dye like chromophores.
 The architecture is written in "Spektral", a 
