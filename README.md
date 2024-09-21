@@ -2,7 +2,7 @@
 
 
 ExcGraph is a graph neural network to predict emission properties of dye like chromophores.
-The architecture is written in "Spektral", a 
+The architecture is written in "Spektral", a Python library for graph deep learning, based on the Keras API and TensorFlow.
 ## Requirements
 
 - Python 3.10.10
@@ -46,7 +46,7 @@ To use the pretrained model on external dataset use the following:
   python load_saved_model.py > load_saved_model.log
 ```
 This will generate the output file "load_saved_model.log" along with the png files in the load_model directory. The purpose of this directory is to test the model on new external test sets.
-## Architeture
+## Architecture
 ![git_architecture](https://media.github.iu.edu/user/24867/files/5acdadcc-45a0-4b6c-9aa4-53fb47289279)
 
 Two convolution layers followed by a pooling layers to obtain molecular fingerprint. This fingerprint is passed through a feedforward neural network to obtain the predicted emission maxima. The node features contain atomic properties and bonding environment along with the eps value (dielectric) of the solvent. The solvent index will be the same for all the nodes for a chromophore in a particular solvent. Using this as a global property has been tested with no impro
@@ -55,7 +55,7 @@ vement.
 ![Predicted-vs-Experiment](https://media.github.iu.edu/user/24867/files/d49b4130-a5a7-44b6-a6ef-99aa26ca131a)
 
 The predictions are colored using different dyes classes. The chromophores are preprocessed to assign each chromophore to its own corresponding dye class.
-## Differntiating features
+## Differentiating features
 
 - Test on external dataset
 - Shows good extrapolation performance
